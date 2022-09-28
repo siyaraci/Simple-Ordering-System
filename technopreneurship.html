@@ -1,0 +1,357 @@
+<html>
+	<head>
+		
+		<meta charset="utf-8"> <!--character set-->
+		<meta name="viewport" content="width=device-width, initial scale=1.0">	<!--for responsive view on any device-->
+
+		<link rel="stylesheet" href="tp.css">	<!--link ng css-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="tp.js">	<!--link ng javascript-->
+		</script>
+	</head>
+
+	<body>
+		<div class="top">
+			<h1><center>CC's Online     Store</center>
+			<span class="dot" style="font-size:30px; cursor:pointer"
+					onclick="openNav()">&#9776;
+			</span>
+
+			<span class="user" style="font-size:30px; cursor:pointer"
+					onclick="openhistory()">&#128100;
+			</span>
+			<span class="cart" style="font-size:30px; cursor:pointer"
+					onclick="opencart()">&#128722;Cart
+			</span>
+		
+		</div>
+
+		<div id="side" class="side">
+			<div class="header">Menu</div>
+				<a href="javascript:void(0)" 
+					class="closebtn"
+					onclick="closeNav()">&times;
+				</a>
+			
+		
+			<a href="#">
+				<center><span class="icon" style="cursor:pointer">&#x2302;<br>
+					Home</a></center><hr>
+			<a href="#cp">
+				
+				<center><span class="icon" style="cursor:pointer">&#128241;<br>
+					Smart Phones</a></center><hr>
+			<a href="#lp">
+				<center><span class="icon" style="cursor:pointer">&#128187;<br>
+					Laptop</a></center><hr>
+			<a href="#ac">
+				<center><span class="icon" style="cursor:pointer">&#127911;<br>
+					Accessories</a></center><hr>	
+		</div>
+
+<br><br><br><br>
+
+		<div class="items">
+			<div id="home">
+			<br><br>
+			
+			<div class="card">
+				<img class="image" src="images/iphone12.png" alt="Iphone 12" style="width:75%">
+				<span class="mytitle"><h1>Iphone 12</h1></span>
+				<p class="price">₱49990</p>
+				<button class="addtocart" type="button">Add to Cart</button>	
+			</div>
+			<div class="card">
+				<img class="image" src="images/lenovo.png" alt="Lenovo Legoin Gaming Laptop" style="width:69%">
+				<span class="mytitle"><h1>Lenovo Legoin Gaming Laptop</h1></span>
+				<p class="price">₱51590</p>
+				<button class="addtocart" type="button">Add to Cart</button>			
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/mouse.png" alt="Wireless Mouse" style="width:75%">
+				<span class="mytitle"><h1>Wireless Mouse</h1></span>
+				<p class="price">₱250</p>
+				<button class="addtocart" type="button">Add to Cart</button>	
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/charger.png" alt="Laptop Charger" style="width:69%">
+				<span class="mytitle"><h1>Laptop Charger 19.5v 2.31a</h1></span>
+				<p class="price">₱690</p>
+				<button class="addtocart" type="button">Add to Cart</button>		
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/h2.png" alt="Power Bank" style="width:72%">
+				<span class="mytitle"><h2>OIGEAR Gear Power 16,000mAh</h2></span>
+				<p class="price">₱1200</p>
+				<button class="addtocart" type="button">Add to Cart</button>	
+			</div>
+			<div class="card">
+				<img class="image" src="images/h1.png" alt="Apple Airpods Pro" style="width:77%">
+				<span class="mytitle"><h2>Apple Airpods Pro</h2></span>
+				<p class="price">₱8500</p>
+				<button class="addtocart" type="button">Add to Cart</button>	
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/h3.png" alt="Bluetooth Speaker" style="width:69%">
+				<span class="mytitle"><h1>Bluetooth Speaker</h1></span>
+				<p class="price">₱650</p>
+				<button class="addtocart" type="button">Add to Cart</button>		
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/h4.png" alt="Mouse Pad" style="width:75%">
+				<span class="mytitle"><h1>Mouse Pad</h1></span>
+				<p class="price">₱120</p>
+				<button class="addtocart" type="button">Add to Cart</button>	
+			</div>
+
+
+			</div>
+		</div>
+
+	<br>
+		<div class="items">
+		<div id="cp"></div>
+			<br>
+			<div class="card">
+				<img class="image" src="images/vivox.png" alt="Vivo" style="width:75%">
+				<span class="mytitle"><h1>Vivo X60</h1></span>
+				<p class="price">₱11586</p>
+				<button class="addtocart" type="button">Add to Cart</button>			
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/realme8.png" alt="Realme 8" style="width:75%">
+				<span class="mytitle"><h1>Realme 8</h1></span>
+				<p class="price">₱13999</p>
+				<button class="addtocart" type="button">Add to Cart</button>			
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/samsungs21+.png" alt="Samsung S21+" style="width:75%">
+				<span class="mytitle"><h1>Samsung S21+</h1></span>
+				<p class="price">₱40599</p>
+				<button class="addtocart" type="button">Add to Cart</button>		
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/redminote8.png" alt="Redmi Note 8" style="width:75%">
+				<span class="mytitle"><h1>Redmi Note 8</h1></span>
+				<p class="price">₱9950</p>
+				<button class="addtocart" type="button">Add to Cart</button>	
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/c1.png" alt="Xiomi POCO" style="width:75%">
+				<span class="mytitle"><h1>Xiomi POCO M2</h1></span>
+				<p class="price">₱8580</p>
+				<button class="addtocart" type="button">Add to Cart</button>			
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/c2.png" alt="Realme 7" style="width:75%">
+				<span class="mytitle"><h1>Xiaomi Redmi 9c</h1></span>
+				<p class="price">₱13999</p>
+				<button class="addtocart" type="button">Add to Cart</button>			
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/c3.png" alt="Xiaomi Redmi 9c" style="width:75%">
+				<span class="mytitle"><h1>Xiaomi Redmi 9c</h1></span>
+				<p class="price">₱5599</p>
+				<button class="addtocart" type="button">Add to Cart</button>		
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/c4.png" alt="Xiaomi POCO M3" style="width:75%">
+				<span class="mytitle"><h1>Xiaomi POCO M3</h1></span>
+				<p class="price">₱7950</p>
+				<button class="addtocart" type="button">Add to Cart</button>	
+			</div>
+			</div>
+		</div>
+	<br>
+			
+			<div class="items">
+				<div id="lp"></div>
+			<br>
+			<div class="card">
+				<img class="image" src="images/asus.png" alt="Asus 15.6' M509DA Laptop" style="width:75%">
+				<span class="mytitle"><h1>Asus 15.6' M509DA Laptop</h1></span>
+				<p class="price">₱17000</p>
+				<button class="addtocart" type="button">Add to Cart</button>	
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/acerswift5.png" alt="Acer Laptop Swift 5" style="width:75%">
+				<span class="mytitle"><h1>Acer Laptop Swift 5</h1></span>
+				<p class="price">₱62108</p>
+				<button class="addtocart" type="button">Add to Cart</button>				
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/dellattitude3410.png" alt="Dell Lattitude 3410" style="width:75%">
+				<span class="mytitle"><h1>Dell Lattitude 3410</h1></span>
+				<p class="price">₱38119</p>
+			<button class="addtocart" type="button">Add to Cart</button>		
+			</div>
+			<div class="card">
+				<img class="image" src="images/dell.png" alt="Dell Lattittude e7440" style="width:75%">
+				<span class="mytitle"><h1>Dell Lattittude e7440</h1></span>
+				<p class="price">₱18790</p>
+			<button class="addtocart" type="button">Add to Cart</button>			
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/l4.png" alt="Mini Laptop Android Quad Core NetBook" style="width:69%">
+				<span class="mytitle"><h1>Mini Laptop Android Quad Core </h1></span>
+				<p class="price">₱17500</p>
+				<button class="addtocart" type="button">Add to Cart</button>	
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/l1.png" alt="Microsoft Surface Laptop 3" style="width:75%">
+				<span class="mytitle"><h1>Microsoft Surface Laptop 3</h1></span>
+				<p class="price">₱32590</p>
+				<button class="addtocart" type="button">Add to Cart</button>				
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/l2.png" alt="HP Pavilion Gsming Laptop" style="width:75%">
+				<span class="mytitle"><h1>HP Pavilion Gsming Laptop</h1></span>
+				<p class="price">₱23990</p>
+			<button class="addtocart" type="button">Add to Cart</button>		
+			</div>
+			<div class="card">
+				<img class="image" src="images/l3.png" alt="One NetBook OneGx1 Pro i7" style="width:75%">
+				<span class="mytitle"><h1>One NetBook OneGx1 Pro i7</h1></span>
+				<p class="price">₱38790</p>
+			<button class="addtocart" type="button">Add to Cart</button>			
+			</div>
+			</div>
+		</div>
+	<br>
+
+		<div class="items">
+			<div id="ac"></div>
+				<br>
+		<div class="card">
+				<img class="image" src="images/headphone.png" alt="Headphone" style="width:75%">
+				<span class="mytitle"><h1>Headphone</h1></span>
+				<p class="price">₱499</p>
+				<button class="addtocart" type="button">Add to Cart</button>	
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/headset.png" alt="Headset" style="width:75%">
+				<span class="mytitle"><h1>Headset</h1></span>
+				<p class="price">₱170</p>
+			<button class="addtocart" type="button">Add to Cart</button>				
+		</div>
+
+		<div class="card">
+				<img class="image" src="images/case2.png" alt="CellPhone Case" style="width:75%">
+				<span class="mytitle"><h1>Cellphone Case</h1></span>
+				<p class="price">₱199</p>
+				<button class="addtocart" type="button">Add to Cart</button>				
+			</div>
+
+				<div class="card">
+				<img class="image" src="images/case.png" alt="CellPhone Case" style="width:75%">
+				<span class="mytitle"><h1>Cellphone Case</h1></span>
+				<p class="price">₱180</p>
+			<button class="addtocart" type="button">Add to Cart</button>		
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/a1.png" alt="Powerport Fast Charger Adapter" style="width:75%">
+				<span class="mytitle"><h1>Powerport Fast Charger Adapter</h1></span>
+				<p class="price">₱600</p>
+				<button class="addtocart" type="button">Add to Cart</button>	
+			</div>
+			<div class="card">
+				<img class="image" src="images/a2.png" alt="Echo Dot Bluetooth Speaker" style="width:75%">
+				<span class="mytitle"><h1>Bluetooth Speaker</h1></span>
+				<p class="price">₱399</p>
+				<button class="addtocart" type="button">Add to Cart</button>				
+			</div>
+
+			<div class="card">
+				<img class="image" src="images/a3.png" alt="Gaming Keyboard" style="width:81%">
+				<span class="mytitle"><h1>Gaming Keyboard</h1></span>
+				<p class="price">₱1170</p>
+			<button class="addtocart" type="button">Add to Cart</button>				
+		</div>
+
+				<div class="card">
+				<img class="image" src="images/a4.png" alt="Wireless Keyboard Mouse" style="width:69%">
+				<span class="mytitle"><h1>Wireless Keyboard & Mouse</h1></span>
+				<p class="price">₱980</p>
+			<button class="addtocart" type="button">Add to Cart</button>		
+			</div>
+		</div>
+
+
+	<div id="sidecart" class="sidecart">
+			<div class="header">My Cart</div>
+				<a href="javascript:void(0)" 
+					class="closebtn"
+					onclick="closecart()">&times;
+				</a>
+
+	
+	 	<section class="container content-section">
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">Item</span>
+                <span class="cart-price cart-header cart-column">Price</span>
+                <span class="cart-quantity cart-header cart-column">Quantity</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+             </div>
+                  <hr>
+             <div class="datepurchased">     
+           	  	<left><strong class="DatePuchased">Date Added:</strong>
+                <span class="date"></span></left>
+             </div>
+
+            <button class="btn btn-primary btn-purchase" type="button" onclick="closecart()">Purchase</button>
+        </section>
+	</div>
+
+		 <div id="id02" class="modal2">
+ 			<span onclick="closemodal()" class="close" title="Close Modal">&times;</span>
+
+  	<form style="border:1px solid #ccc">
+ 		 <div class="container2">
+   			 <center><h1>Payment Details</h1></center>
+   			 <p>Please fill in this form to add your payment and shipping details.</p>
+
+  		  <hr>
+
+  			 <label for="email"><b>Full Name</b></label>
+   			 <input type="text" placeholder="Enter Email" name="Fullname" required>
+
+   			 <label for="email"><b>Email Adress</b></label>
+   			 <input type="text" placeholder="Enter Email" name="Emailadress" required>
+
+    		 <label for="email"><b>Adress</b></label>
+   			 <input type="text" placeholder="Street, Town, Province" name="address" required>
+
+   			 <label for="email"><b>Credit Card Number</b></label>
+   			 <input type="text" placeholder="Credit Card number" name="creditcardnumber" required>
+    		<div class="clearfix">
+      			<button type="submit" class="submit" onclick="submits()">Submit</button>
+    		</div>
+  		</div>    
+	</form>
+</div>
+	</body>
+</html>
